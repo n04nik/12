@@ -1,0 +1,70 @@
+Hi
+1, I am not sure which page of timer you want to hide, But you want to hide the timer of time out screen that you can change the setting to close the clock
+ D:\Program Files\DTATMW\Bin\ydcmonitor\Monitor.ini 
+[process]
+num=3
+2,You can change the font from the D:\Program Files\DTATMW\Bin\AScreen\screen.ini，you need to check the script of screen first. 
+the ESC '(' +number which match the font you set in screen.ini, 
+For example,   [ESC](1 AB[ESC] [22;34mPLESE SELECT TYPE OF PAYMENT: FK[ESC]  [22;34mPREDEFINED PAYMENTS-> IK[ESC]  [22;34mFREE PAYMENTS-------> OK [ESC] [23;34mPRESS FOR CANCEL--->
+"ESC (1" that means that will change the font as NDCAlphanumeric1. 
+So you can reset that by yourself. 
+ 
+
+3，Why do you want to change name of EJ ?Did bank require?for what? 
+
+4, If you want to re-design the counter receipts that you can check D:\Program Files\DTATMW\Bin\AScreen\html\000\grgjs if you want to change by yourself. In addtion,  I checked your picture .  Do your ATM need to support ECB? Do you wnat to add only add L3 noteinfo detail?, Cassettes detail, card captured, transaction detail are already output in receipts, I think, and which CNY currency of list you want to remove? Can you provide me logs which including counter receipts. I don't know your requirment clearly , please tell more detail, thanks
+
+ 
+
+
+________________________________________
+Best Regards,
+Houvi.Lu
+
+Software Engineer | Technical Support Division of Middle East & Europe Region
+
+ 
+GRG Banking Equipment (HK) Co., Ltd
+Headquarters: 9 Kelin Road, Science City, Luogang District, Guangzhou, China
+Mobile: +86 13750095598
+Email:Houvi.Lu@grgbanking.com    Website: www.GRGBanking.com 
+ 
+From: Винокуров Андрей Александрович
+Date: 2022-12-02 17:03
+To: Houvi.Lu@grgbanking.com
+CC: allen.jea@grgbanking.com; alan.cheng@grgbanking.com; Евдаков Игорь Евгеньевич; Канашевич Андрей Евгеньевич
+Subject: 
+Good afternoon!
+
+
+1.	At the moment of waiting for an action from the client, a timer with a time report appears in the upper right corner, this timer must be disabled, tell me how to do it.
+
+
+2.	It is necessary to increase the font of the text in the input field, for example, the image below.
+ 
+ 
+ 
+ 
+
+
+3.	It is necessary to change the name of the log file EJ221118.log to EJ20221118.log, this is necessary to present the name of the log files to the general form.
+
+ 
+4.	Bank wants to add to the form of counter receipts, the nominal value of the cassette and its type, and is it possible to remove CNY from the list of currencies in the receipt.
+Example of a receipt
+ 
+ 
+ 
+С уважением, 
+ 
+Винокуров Андрей Александрович
+Ведущий инженер-системотехник
+Отдел сопровождения периферийного оборудования 
+Управление тестирования периферийного оборудования
+Департамент информационных технологий
+ОАО "Банковский процессинговый центр" 
+тел. +375 17 279-44-49 (вн. 2049)
+E-mail: Vinakurau_AA@npc.by
+www.npc.by
+ 
+ 
